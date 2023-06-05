@@ -1,0 +1,39 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.bg-main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.app-con {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  max-width: 900px;
+  margin-top: 60px;
+  /* border: 1px solid red; */
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 26px;
+  color: #cb8805;
+  text-align: center;
+}
+
+.questions-con {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 40px;
+}
